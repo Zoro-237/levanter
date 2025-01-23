@@ -32,7 +32,7 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   BRANCH: 'master',
-  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '❤️,LyFE',
+  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '亗『SHINMON✫』亗',
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE,
   LOG_MSG: process.env.LOG_MSG || 'false',
   RMBG_KEY: process.env.RMBG_KEY || 'null',
@@ -63,13 +63,13 @@ module.exports = {
   PERSONAL_MESSAGE: (process.env.PERSONAL_MESSAGE || 'null').trim(),
   DISABLE_START_MESSAGE: process.env.DISABLE_START_MESSAGE || 'false',
   ANTI_BOT: (process.env.ANTI_BOT || 'off').trim(),
-  ANTI_BOT_MESSAGE: process.env.ANTI_BOT_MESSAGE || '&mention removed',
+  ANTI_BOT_MESSAGE: process.env.ANTI_BOT_MESSAGE || '&mention 亗『SHINMON✫』亗 removed',
   WARN_MESSAGE:
     process.env.WARN_MESSAGE ||
-    '⚠️WARNING⚠️\n*User :* &mention\n*Warn :* &warn\n*Remaining :* &remaining',
+    '⚠️亗『SHINMON✫』亗 is WARNING⚠️\n*User :* &mention\n*Warn :* &warn\n*Remaining :* &remaining',
   WARN_RESET_MESSAGE:
     process.env.WARN_RESET_MESSAGE || `WARN RESET\nUser : &mention\nRemaining : &remaining`,
-  WARN_KICK_MESSAGE: process.env.WARN_KICK_MESSAGE || '&mention kicked',
+  WARN_KICK_MESSAGE: process.env.WARN_KICK_MESSAGE || '&mention 亗『SHINMON✫』亗 kicked',
   TRUECALLER: process.env.TRUECALLER,
   DELETE_TYPE: (process.env.DELETE_TYPE || '').trim(),
   LIST_TYPE: (process.env.LIST_TYPE || 'text').trim(),
